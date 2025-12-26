@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgriPredict | AI Agriculture</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">🌱 AgriSolution</div>
+    <div class="nav-links">
+        <a href="/index">Home</a>
+        <a href="/crop">Crop Prediction</a>
+        <a href="/soil">Soil Prediction</a>
+    </div>
+</nav>
+
+{% block content %}{% endblock %}
+
+<footer class="footer">
+    <p>© 2025 AgriPredict | AI-Driven Agriculture</p>
+</footer>
+
+</body>
+</html>
